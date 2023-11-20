@@ -1,0 +1,183 @@
+.logo > img{
+  width:200px;
+  height:150px;
+  border-right:4px solid black
+}
+body{
+  background-color:lightcoral;
+}
+.under-the-nav{
+  display:flex;
+  flex-flow:row nowrap;
+  align-items:center;
+  background-color:aqua;
+  justify-content:space-between;
+  border:3px solid black;
+}
+.under-the-nav > img{
+  display:flex;
+  justify-content:flex-start;
+}
+.under-the-nav > h1{
+  display:flex;
+  justify-content:center;
+
+}
+.heading > h1{
+  -webkit-text-stroke-color:black;
+  -webkit-text-stroke-width:.6px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  font-size:4.0em;
+ text-align:center;
+ padding:4px;
+}
+.heading{
+  display:flex;
+  justify-content:center;
+}
+.main-text > p{
+  text-align:left;
+  font-size:1.7em;
+
+}
+.footer{
+  text-align:center;
+  text-shadow:2px 2px black;
+  border:3px solid black;
+  margin-bottom:0;
+  padding-bottom:0;
+}
+.footer > p{
+  margin:0;
+  font-size:inherit;
+  font-size:1.25em;
+}
+.footer > a{
+  text-decoration:none;
+  color:whitesmoke;
+  font-size:inherit;
+  font-size:1.25em;
+}
+.container > p{
+  display:flex;
+  justify-content:flex-end;
+  margin-right:0;
+  text-align:center;
+} 
+.main-photo > img{
+  height:100%;
+  width:60%;
+}
+.main-photo{
+  display:flex;
+  justify-content:flex-start;
+  margin-left:0;
+}
+.container{
+  display:flex;
+  flex-flow:row nowrap;
+  margin-left:0;
+  margin-right:0;
+min-width:100%;
+
+}
+.main-text{
+  display:flex;
+  justify-content:flex-end;
+  flex-flow:column nowrap;
+  padding:1.5rem;
+}
+.resume-header{
+  text-align:center;
+}
+p{
+  text-align:center;
+  font-size:1.5em;
+}
+.resume-main > h1{
+text-align:center;
+}
+.resume{
+  margin:2rem;
+}
+.resume-main > p > em{
+justify-content:flex-start;;
+}
+.work-experience{
+  justify-content:flex-start;
+  text-align:left;
+}
+.jobs-item{
+  font-size:1.5em;  
+  padding:1.3rem;
+}
+.education-resume > h1{
+  text-align:center;
+}
+
+a{
+  text-decoration:none;
+  color:black;
+}
+.contact{
+  list-style-type:none;
+  text-decoration:none;
+  padding:1.2rem;
+  font-size:1.3em;
+}
+.coursework{
+  display:flex;
+  flex-flow:column nowrap;
+}
+.coursework-pages > img{
+height:550px;
+width:500px;
+padding:2rem;
+}
+.coursework-pages2 > img{
+  height:550px;
+  width:500px;
+  padding:2rem;
+  order:-1;
+}
+.coursework-pages2{
+  justify-content:space-evenly;
+  display:flex;
+  flex-flow:row nowrap;
+  order:-1;
+
+}
+.coursework-pages3 > img{
+  height:550px;
+  width:500px;
+  padding:2rem;
+}
+.coursework{
+  -webkit-text-stroke-color:black;
+  -webkit-text-stroke-width:.6px;
+  color:black;
+  font-style:italic;
+  vertical-align:center;
+  align-content:center;
+}
+.coursework > p{
+ text-align:inherit;
+ vertical-align:center;
+ display:flex;
+ align-content:center;
+}
+.Portfolio-SS1{
+max-height:20%;
+max-width:25%;;
+}
+.Portfolio-SS-Text{
+  color:black;
+  -webkit-text-stroke-color:white;
+  -webkit-text-stroke-width:.2px;
+  align-self:center;
+  font-size:1.2em;
+  font-weight: bolder;
+}
+.container-fluid{
+  margin:1rem;
+}

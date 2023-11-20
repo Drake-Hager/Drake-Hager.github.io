@@ -215,6 +215,9 @@ min-height:max-content;
   text-align:center;
   font-size:4em;
 }
+#submitty{
+  background-color: #808285;
+}
 .carousel-item > img{border-radius: 15px;}
 .quote-header{
   font-size:1.8rem;
