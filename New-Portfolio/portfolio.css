@@ -1,0 +1,28 @@
+.jumbotron{
+ background-image: linear-gradient(#5e5e5ee6, rgba(0, 0, 0, 1)), url(images/portfolio-image.jpg);
+  background-size:contain;
+  background-repeat: no-repeat;
+text-shadow: darkgreen 3px 3px 0;
+background-blend-mode: overlay; 
+ height:600px;
+}
+.jumbotron > img{
+  z-index: 1;
+
+.navbar{
+  background-image:linear-gradient(darkolivegreen, rgba(0, 0, 0, .4))
+}
+}
+.aside-link{
+list-style-type: none;
+text-decoration: none;
+  
+}
+.jumbotron::after{
+  background-color: rgba(50, 238, 220, 0.2);
+}
+.jumbo-text{
+  text-align:center;
+height:max-content;
+color:whitesmoke;
+}
